@@ -79,4 +79,4 @@ There are no special code-signing mechanisms in place for Linux.
 ## Questions
 
 If you are interested in further developing Notebag and have questions about specific implementation details
-or other intricacies of the app, please don't hesitate to contact me under [hello@pretzelhands.com](mailto:hello@pretzelhands.com?subject=Notebag Question)
+or other intricacies of the app, please don't hesitate to contact me under hello@pretzelhands.com
