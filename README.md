@@ -1,5 +1,5 @@
 <p align="center">
-	<img alt="Notebag" src="https://notebag.app/assets/logo.png" width="697">
+	<img alt="Notebag" src="https://notebag.app/assets/logo.png" width="480">
 </p>
 
 ---
