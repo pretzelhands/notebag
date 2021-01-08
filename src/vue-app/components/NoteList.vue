@@ -144,8 +144,7 @@
 			},
 
 			notePreview(note) {
-				const sanitizedNotePreview = note.preview.replace(/<span class="category-pill".*>.*<\/span>/gi, "");
-
+				const sanitizedNotePreview = note.preview.replace(/<span class="category-pill".*?>.*?<\/span>/gi, "");
 				return stripTags(sanitizedNotePreview).trim().length > 0
 					? stripTags(sanitizedNotePreview, ALLOWED_HTML_TAGS, " ").trim()
 					: "No content";
