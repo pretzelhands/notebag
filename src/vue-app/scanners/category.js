@@ -1,19 +1,8 @@
 import objectScan from "object-scan";
 
-const getAllCategories = async (input) => {
-	let results = [];
-
-	objectScan(["**.type"], {
-		filterFn: ({ value, parent }) => {
-			const isCategoryNode = value === "category";
-
-			if (isCategoryNode) {
-				results.push(parent);
-			}
-		}
-	})(input);
-
-	return results;
-};
+const getAllCategories = async (input) => objectScan(["**.type"], {
+	rtn: 'parent',
+	filterFn: ({ value }) => value === "category"
+})(input);
 
 export default getAllCategories;
